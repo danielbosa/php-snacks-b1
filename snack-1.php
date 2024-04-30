@@ -35,7 +35,7 @@ $matches = [
     ];
 
 foreach ($matches as $match){
-    echo $match['home'] . ' - ' . $match['away'] . ' | ' . $match['homeScore'] . ' - ' . $match['awayScore'];
+    echo "<p>" . $match['home'] . ' - ' . $match['away'] . ' | ' . $match['homeScore'] . ' - ' . $match['awayScore'] . "</p>";
 };
 
 /*
