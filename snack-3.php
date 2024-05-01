@@ -72,25 +72,25 @@ Snack 4
 <body>
     <h1>Post List</h1>
     <ul>
-        <?php foreach ($posts as $date => $postList): ?>
+        <?php foreach ($posts as $date => $postList){ ?>
             <li>
-                Date: <?php echo $date; ?>
+                Date: <?php echo $date ?>
                 <ul>
-                    <?php foreach ($postList as $post): ?>
+                    <?php foreach ($postList as $post){ ?>
                         <li>
-                            Title: <?php echo $post['title']; ?>
+                            Title: <?php echo $post['title'] ?>
                         </li>
                         <li>
-                            Author: <?php echo $post['author']; ?>
+                            Author: <?php echo $post['author'] ?>
                         </li>
                         <li>
-                            <?php echo $post['text']; ?>
+                            <?php echo $post['text'] ?>
                         </li>
                         <br>
-                    <?php endforeach; ?>
+                    <?php } ?>
                 </ul>
             </li>
-        <?php endforeach; ?>
+        <?php } ?>
     </ul>
 </body>
 </html>
