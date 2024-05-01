@@ -59,10 +59,6 @@ Snack 4
 
 */
 
-// if(isset($name) && isset($email) && isset($age)){
-
-// };
-
 ?>
 
 <!DOCTYPE html>
